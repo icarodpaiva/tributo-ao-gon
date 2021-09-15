@@ -8,12 +8,17 @@
 
 body {
   font-family: 'Laila', Arial, sans-serif;
-  background-color: #b3cac6;
+  background-color: rgb(193, 218, 197);
+  font-size: 1.1rem;
 }
 
 .container {
   margin: auto;
   max-width: 800px;
+}
+
+h1, h2 {
+  color: #880094;
 }
 
 .apresentacao {
@@ -22,14 +27,13 @@ body {
 
 .apresentacao h1 {
   font-size: 3rem;
-  color: #585f3a;
   text-shadow: 1px 1px 1px black;
 }
 
 .apresentacao img {
   margin: 1rem 0;
   width: 100%;
-  border: 0.5rem solid #f6ca83;
+  border: 0.5rem solid #880094;
 }
 
 .historia {
@@ -47,21 +51,18 @@ body {
   max-width: 600px;
 }
 
-.trajetoria h2 {
-  text-align: center;
-}
-
 .trajetoria_info {
   display: flex;
   justify-content: center;
   margin: 1rem 0;
+  border-bottom: 1px solid #88009463;
 }
 
 .trajetoria img {
   width: 10rem;
   height: 10rem;
   object-fit: cover;
-  border: 0.5rem solid #f6ca83;
+  border: 0.5rem solid #880094;
 }
 
 .trajetoria_img {
@@ -72,5 +73,33 @@ body {
   flex: 3;
   display: flex;
   align-items: center;
-  margin: 0 15px;
+  margin: 0 1rem;
+}
+
+.referencias {
+  margin-top: -1rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.referencias a {
+  color: #880094;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.referencias a:hover {
+  text-decoration: underline;
+  color: green;
+}
+
+footer {
+  padding: 1rem;
+  font-size: 0.9rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+footer div {
+  
 }
