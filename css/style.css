@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Laila&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Laila', Arial, sans-serif;
+  background-color: #b3cac6;
+}
+
+.container {
+  margin: auto;
+  max-width: 800px;
+}
+
+.apresentacao {
+  text-align: center;
+}
+
+.apresentacao h1 {
+  font-size: 3rem;
+  color: #585f3a;
+  text-shadow: 1px 1px 1px black;
+}
+
+.apresentacao img {
+  margin: 1rem 0;
+  width: 100%;
+  border: 0.5rem solid #f6ca83;
+}
+
+.historia {
+  margin: 0 15px;
+  text-align: justify;
+}
+
+.trajetoria_container {
+  display: flex;
+  justify-content: center;
+}
+
+.trajetoria {
+  margin: 3rem 0;
+  max-width: 600px;
+}
+
+.trajetoria h2 {
+  text-align: center;
+}
+
+.trajetoria_info {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.trajetoria img {
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+  border: 0.5rem solid #f6ca83;
+}
+
+.trajetoria_img {
+  flex: 1;
+}
+
+.trajetoria_desc {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  margin: 0 15px;
+}
