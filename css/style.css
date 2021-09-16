@@ -19,6 +19,7 @@ body {
 
 h1, h2 {
   color: #880094;
+  text-align: center;
 }
 
 .apresentacao {
@@ -37,7 +38,7 @@ h1, h2 {
 }
 
 .historia {
-  margin: 0 15px;
+  margin: 0 4rem;
   text-align: justify;
 }
 
@@ -49,6 +50,7 @@ h1, h2 {
 .trajetoria {
   margin: 3rem 0;
   max-width: 600px;
+  text-align: justify;
 }
 
 .trajetoria_info {
@@ -100,6 +102,17 @@ footer {
   font-weight: bold;
 }
 
+footer img {
+  margin-bottom: -0.3rem;
+}
+
 footer div {
-  
+  position: fixed;
+  right: 1%;
+  bottom: 1%;
+}
+
+footer div a {
+  color: #880094d3;
+  text-decoration: none;
 }
